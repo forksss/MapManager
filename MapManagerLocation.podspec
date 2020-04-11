@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MapManagerLocation"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "上报部检测平台IOS库"
 
   # This description is used to generate tags and improve search results.
