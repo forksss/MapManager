@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "**/*"
 
-  # spec.public_header_files = "Classes/**/*.h"
+   spec.public_header_files = "MapManager/Info.plist"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
