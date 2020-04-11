@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MapManagerLocation"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "上报部检测平台IOS库"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Headers/*.{h,m}"
+  spec.source_files  = "Headers/*.{h,m}" "_CodeSignature/*.*" "Modules/*.*"
 
   # spec.public_header_files = "Classes/**/*.h"
 
