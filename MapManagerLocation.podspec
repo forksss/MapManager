@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "MapManagerLocation"
-  spec.version      = "0.0.13"
+  spec.version      = "0.0.14"
   spec.summary      = "上报部检测平台IOS库"
   spec.homepage     = "https://github.com/jsshizhan/MapManager"
   spec.license      = "MIT"
@@ -12,4 +12,5 @@ Pod::Spec.new do |spec|
   # spec.public_header_files = "MapManager.framework/Headers/*.h"
   spec.vendored_frameworks = 'MapManager.framework'
   spec.dependency 'AMapLocation'
+  spec.dependency 'GMObjC','3.0.0'
 end
